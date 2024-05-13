@@ -6,15 +6,68 @@
 </head>
 <body>
 	<header>
+		<img class="logo" src="quadraturedev_logo_128.png" alt="Quadrature Dev Logo">
 		<h1>Quadrature Dev</h1>
-		<p>Research and Development for DSP, AI, and all things RF</p>
+		<p>Research and Development for radios, digital signal processing, machine learning, and data science</p>
 	</header>
+
 	<main>
 		<h2>Interests</h2>
-		<p>Quadrature Dev is interested in the intersection of digital signal processing and data science, especially applied to problems in the wireless and radio frequency domains.</p>
+		<p>
+			Quadrature Dev is interested in the intersection of digital signal
+			processing and data science, especially applied to problems with
+			radio and wireless communications. We are interested in open source
+			and have experience with PyTorch, GNU Radio, and accelerated instruction
+			sets like SSE, AVX, NEON, and CUDA for GPUs.
+		</p>
 		<h2>Skills</h2>
-		<p>I am skilled with C++, CUDA, and python.</p>
+		<p>
+			Quadrature Dev has specialty in software development in C, C++, python, rust,
+			and julia. We have targetted specialized instruction sets including CUDA for NVIDIA
+			GPUs; SSE, AVX, AVX2, AVX512 for x86_64, NEON for ARM.
+
+			We are comfortable interacting with Ettus Research USRPs through UHD and have worked
+			with several other SDRs.
+
+			We're familiar working around low-probability of intercept and detection waveforms and
+			signal detectors including feature analysis and machine-learning methods. We have also
+			contributed to full software modems for various waveforms and are comfortable with profiling
+			tools for software optimization.
+		</p>
+		<h2>Services</h2>
+		<p>
+			Quadrature Dev is interested in developing software defined radios and novel
+			applications of radio processing that leverages GPUs. We're available for
+			contract development. Contact <span id="cont"></span>.
+		</p>
 	</main>
+
+	<!-- <section class="projects">
+		<h2>Projects</h2>
+		<p>Your projects content goes here.</p>
+	</section> -->
+
+	<section class="about-me">
+		<h2>About</h2>
+		<p>
+			Quadrature Dev is the contracting entity for Nathan West. I have previously held roles at
+			the US Naval Research Laboratory and DeepSig. I have contributed to open-source software
+			as the one-time maintainer of VOLK and contributing to release management for GNU Radio.
+			I'm currently accepting contract development work and hope to spin Quadrature Dev in to a
+			product-focused company that can sell SDR hardware with novel demo and example projects
+			to co-design with customers.
+		</p>
+		<img class="img-responsive" src="nathan.png" alt="Nathan West">
+	</section>
+
+	nathan (at) quadrature (dot) dev
+
+	<script>
+		var user = 'nathan';
+		var domain = 'quadrature';
+		var element = document.getElementById('cont');
+		element.innerHTML = '<a href="' + 'mail' + 'to:' + user + '@' + domain + '.dev' + '">' + user + ' (at) ' + domain + ' (dot) dev' + '</a>';
+	</script>
+
 </body>
 </html>
-

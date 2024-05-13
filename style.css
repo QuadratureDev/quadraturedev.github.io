@@ -25,19 +25,20 @@ header p {
 }
 
 main {
-	max-width: 800px;
+	max-width: 600px; /* Adjust this value to suit your needs */
+
 	margin: 2em auto;
 	padding: 2em;
 	background-color: #fff; /* light mode background */
 	border: 1px solid #ddd;
 	border-radius: 0.5em;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-	main.dark-mode {
-		background-color: #333; /* dark mode background */
-		border-color: #444;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	}
+main.dark-mode {
+	background-color: #333; /* dark mode background */
+	border-color: #444;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
@@ -60,4 +61,33 @@ code {
 code.dark-mode {
 	background-color: #333;
 	color: #ccc;
+}
+
+/* New sections */
+section {
+	max-width: 600px; /* Adjust this value to suit your needs */
+
+	margin: 2em auto;
+	padding: 2em;
+	background-color: #fff; /* light mode background */
+	border: 1px solid #ddd;
+	border-radius: 0.5em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.about-me.dark-mode, .projects.dark-mode {
+	background-color: #333; /* dark mode background */
+	border-color: #444;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.img-responsive {
+    max-width: 100%; /* This will make sure the image does not exceed its container */
+    height: auto; /* This will keep the aspect ratio of the image intact */
+}
+
+.logo {
+	width: 128px;
+	height: 128px;
 }

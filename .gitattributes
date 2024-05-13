@@ -1,2 +1,4 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
+nathan.png filter=lfs diff=lfs merge=lfs -text
+quadraturedev_logo_128.png filter=lfs diff=lfs merge=lfs -text
