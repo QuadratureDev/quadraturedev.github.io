@@ -7,6 +7,7 @@
 <body>
 	<header>
 		<img class="logo" src="quadraturedev_logo_128.png" alt="Quadrature Dev Logo">
+		<!-- <img class="logo" src="https://media.githubusercontent.com/media/QuadratureDev/quadraturedev.github.io/main/quadraturedev_logo_128.png" alt="Quadrature Dev Logo"> -->
 		<h1>Quadrature Dev</h1>
 		<p>Research and Development for radios, digital signal processing, machine learning, and data science</p>
 	</header>
@@ -38,7 +39,7 @@
 		<p>
 			Quadrature Dev is interested in developing software defined radios and novel
 			applications of radio processing that leverages GPUs. We're available for
-			contract development. Contact <span id="cont"></span>.
+			contract development. Contact <span class="cont"></span>.
 		</p>
 	</main>
 
@@ -57,16 +58,18 @@
 			product-focused company that can sell SDR hardware with novel demo and example projects
 			to co-design with customers.
 		</p>
-		<img class="img-responsive" src="nathan.png" alt="Nathan West">
+		<img class="img-responsive" src="https://media.githubusercontent.com/media/QuadratureDev/quadraturedev.github.io/main/nathan.png" alt="Nathan West">
 	</section>
 
-	nathan (at) quadrature (dot) dev
+	<span class="cont"></span>
 
 	<script>
 		var user = 'nathan';
 		var domain = 'quadrature';
-		var element = document.getElementById('cont');
-		element.innerHTML = '<a href="' + 'mail' + 'to:' + user + '@' + domain + '.dev' + '">' + user + ' (at) ' + domain + ' (dot) dev' + '</a>';
+		var contElements = document.getElementsByClassName('cont');
+		for (element of contElements) {
+			element.innerHTML = '<a href="' + 'mail' + 'to:' + user + '@' + domain + '.dev' + '">' + user + ' (at) ' + domain + ' (dot) dev' + '</a>';
+		}
 	</script>
 
 </body>
